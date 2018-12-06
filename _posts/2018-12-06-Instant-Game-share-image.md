@@ -66,6 +66,7 @@ comments: true
             shareCanvasCtx.strokeText("SCORE", 475, 100);
             shareCanvasCtx.fillText("SCORE", 475, 100);
 
+            // shareCanvas.toDataURL()获得canvas的base64图片数据
             shareCanvas = null;
         };
     };

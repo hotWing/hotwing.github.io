@@ -26,6 +26,7 @@ Cocos Creator提供了cc.view单例来操作试图相关的信息（[View官方�
 * **SHOW_ALL** 保持比例撑满屏幕，如果设计比例和屏幕比例不同则周围会有黑边。
 * **FIXED_HEIGHT** 保持游戏Canvas的height的设计分辨率，将width适配到屏幕的width。
 * **FIXED_WIDTH** 保持游戏Canvas的width的设计分辨率，将height适配到屏幕的height。
+
 #### 2.3. 最后使用的解决办法
 用了上述`FIXED_HEIGHT`适配方案（应该是等同于编辑中Canvas下的fit height的）。这时候我的游戏画面的height在IphoneX屏幕上就以1080px计算，但是width就按IphoneX的比例适配到2338px。然后，游戏里的背景图就做到宽度2338，一些左右的ui就用widget组建关联到左右边。这样，游戏在IphoneX上也是全屏的效果了，画面还不会被拉伸。
 

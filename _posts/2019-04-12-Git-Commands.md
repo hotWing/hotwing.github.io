@@ -23,4 +23,4 @@ comments: true
 
 **git reset -–hard** 撤销所有更改
 
-**git checkout -- &lt;file&gt;** 撤销某个文件或文件夹的更改 
+**git checkout \-\- &lt;file&gt;** 撤销某个文件或文件夹的更改

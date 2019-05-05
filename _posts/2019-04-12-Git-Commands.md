@@ -28,3 +28,7 @@ comments: true
 **git clean -n** 查看会被删除的未监视文件
 
 **git clean -f** 删除未监视文件
+
+**git config --global credential.helper cache**  启用密码缓存
+
+**git config --global credential.helper 'cache --timeout=3600'** 设置密码缓存时长，单位秒
